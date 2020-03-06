@@ -1,0 +1,29 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>gdm</Name>
+  <DisplayName>GdM - Gestionnaire de copie</DisplayName>
+  <Description>Gestion de Microcards</Description>
+  <Version>3.0.1</Version>
+  <ReleaseDate>2020-03-06</ReleaseDate>
+  <Script>installscript.qs</Script>
+  <Default>true</Default>
+  <UpdateFile CompressedSize="15037144" UncompressedSize="55762940" OS="Any"/>
+  <DownloadableArchives>iconengines.7z,imageformats.7z,platforms.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
+  <SHA1>0a12b7d699d9e97493846460883ec03a8ac3919b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>vcredist</Name>
+  <DisplayName>VCRedist</DisplayName>
+  <Description>Visual C++ Redistribuable</Description>
+  <Version>15</Version>
+  <ReleaseDate>2020-02-22</ReleaseDate>
+  <Script>installscript.qs</Script>
+  <Default>true</Default>
+  <UpdateFile CompressedSize="13209719" UncompressedSize="15060536" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>aee3a7b8405adf91e0c5539c44d873b6f7b1ede1</SHA1>
+ </PackageUpdate>
+</Updates>
