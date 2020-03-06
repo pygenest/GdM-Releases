@@ -1,19 +1,7 @@
 <Updates>
- <ApplicationName>{AnyApplication}</ApplicationName>
- <ApplicationVersion>1.0.0</ApplicationVersion>
+ <ApplicationName>GdM</ApplicationName>
+ <ApplicationVersion>3.0.2</ApplicationVersion>
  <Checksum>true</Checksum>
- <PackageUpdate>
-  <Name>gdm</Name>
-  <DisplayName>GdM - Gestionnaire de copie</DisplayName>
-  <Description>Gestion de Microcards</Description>
-  <Version>3.0.1</Version>
-  <ReleaseDate>2020-03-06</ReleaseDate>
-  <Script>installscript.qs</Script>
-  <Default>true</Default>
-  <UpdateFile CompressedSize="15037144" UncompressedSize="55762940" OS="Any"/>
-  <DownloadableArchives>iconengines.7z,imageformats.7z,platforms.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
-  <SHA1>0a12b7d699d9e97493846460883ec03a8ac3919b</SHA1>
- </PackageUpdate>
  <PackageUpdate>
   <Name>vcredist</Name>
   <DisplayName>VCRedist</DisplayName>
@@ -22,8 +10,20 @@
   <ReleaseDate>2020-02-22</ReleaseDate>
   <Script>installscript.qs</Script>
   <Default>true</Default>
-  <UpdateFile CompressedSize="13209719" UncompressedSize="15060536" OS="Any"/>
+  <UpdateFile CompressedSize="13209719" OS="Any" UncompressedSize="15060536"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>aee3a7b8405adf91e0c5539c44d873b6f7b1ede1</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gdm</Name>
+  <DisplayName>GdM - Gestionnaire de copie</DisplayName>
+  <Description>Gestion de Microcards</Description>
+  <Version>3.0.2</Version>
+  <ReleaseDate>2020-03-06</ReleaseDate>
+  <Script>installscript.qs</Script>
+  <Default>true</Default>
+  <UpdateFile CompressedSize="15037983" OS="Any" UncompressedSize="55762940"/>
+  <DownloadableArchives>iconengines.7z,imageformats.7z,platforms.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
+  <SHA1>0e80a53189a82b0c01d106d606ca76c9cb7b1bae</SHA1>
  </PackageUpdate>
 </Updates>
